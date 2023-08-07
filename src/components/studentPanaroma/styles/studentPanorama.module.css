@@ -1,0 +1,88 @@
+.parent {
+  display: flex;
+  height: 900px;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 42px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionHeading {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  color: #000;
+  font-family: Monument Extended;
+  font-size: 60px;
+  font-weight: 1000;
+  line-height: normal;
+  transform: rotate(-180deg);
+}
+
+.leftWrap {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #e5e5e5;
+  align-items: center;
+}
+
+.leftImg {
+  width: 80%;
+  border-right: 5px solid #000;
+  border-left: 5px solid #000;
+}
+
+.rightWrap {
+  height: 78%;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  background: #e5e5e5;
+  align-items: center;
+}
+
+.rightImg {
+  width: 75%;
+}
+
+.blogLink {
+  width: 620px;
+  height: 158px;
+  border-radius: 55px;
+  border: 7px solid #ffb16b;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.blogTxt {
+  color: #ffb16b;
+  text-align: center;
+  font-family: Monument Extended;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.arrow
+{
+    background-image: url(../Arrow.png);
+}

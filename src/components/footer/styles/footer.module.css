@@ -1,0 +1,39 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.strip {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  background: url(./strip1.png);
+  padding: 0 62px;
+}
+
+.footerBuffer {
+  height: 60px;
+  background: #1e1e1e;
+}
+
+.footerText {
+  color: #fff;
+  text-align: center;
+  font-family: Monument Extended;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: 22px;
+}
+
+.logoimg
+{
+    position: relative;
+    top: 44px;
+   
+}

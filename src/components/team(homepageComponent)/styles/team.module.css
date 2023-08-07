@@ -1,0 +1,34 @@
+.sectionHeading {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  width: 73px;
+  height: 215px;
+  flex-shrink: 0;
+  background: #ffb16b;
+  transform: rotate(-180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-align: center;
+  font-family: Monument Extended;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.83px; /* 59.575% */
+  letter-spacing: -0.2px;
+  position: relative;
+  left: 2px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  padding-left: 1%;
+}
+
+.image {
+  width: 88.4%;
+  
+}
