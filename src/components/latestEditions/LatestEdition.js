@@ -1,5 +1,5 @@
 import React from 'react';
-import ascesionImg from '../Media/Ascesion.jpeg';
+import ascesionImg from '../../Media/Ascesion.jpeg';
 import styles1 from './LatestEdition.module.css'
 
 function LatestEdition() {
